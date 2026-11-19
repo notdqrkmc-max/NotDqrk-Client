@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "notdqrk-client",
+	"version": "${version}",
+	"name": "NotDqrk Client",
+	"description": "Client-side visual enhancements: animated HUD, sky effects, particles, cosmetic effects and a configurable visuals menu.",
+	"authors": [
+		"NotDqrk"
+	],
+	"contact": {
+		"sources": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/notdqrk-client/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"notdqrkclient.Notdqrk_client"
+		],
+		"client": [
+			"notdqrkclient.client.Notdqrk_clientClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
